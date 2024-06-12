@@ -4,7 +4,7 @@ import Services from "./components/services/Services";
 import Tarifs from "./components/tarifs/Tarifs";
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import "../../my-app/src/App.css";
+
 
 
 function App() {
