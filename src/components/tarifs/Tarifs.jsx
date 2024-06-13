@@ -11,7 +11,7 @@ function Tarifs() {
       <div className="w-full sm:w-30">
         <Navbar />
       </div>
-      <section className="bg-gradient-to-r from-gray-950 via-gray-400 to-gray-950 flex items-center justify-center ">
+      <section className="bg-gradient-to-r from-gray-950 via-gray-400 to-gray-950 items-center justify-center">
         <div class="hidden lg:flex  md:hidden  items-center justify-center h-screen">
           <h2 className="text-5xl mr-40  -mt-40 mb-80 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline ">Tarifs:</h2>
           <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 rounded-tr-3xl w-80 rounded-bl-3xl shadow-2xl p-2 mr-8 -ml-80 mt-60 animate__slideInRight animate__slow  ">
@@ -199,7 +199,7 @@ function Tarifs() {
               </div>
               <h4 className=" text-lg ml-16 mb-2 mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline">Monovolume</h4>
               <div className="mt-2 mb-18 bg-gradient-to-t from-customRed via-red-100 to-customRed h-14 rounded-tr-3xl w-40 rounded-bl-3xl shadow-2xl ml-8 flex items-center justify-center">
-                <p className="text-4xl font-bold">1,30€</p>
+                <p className="text-4xl font-bold">15,30€</p>
               </div>
 
 
@@ -425,12 +425,13 @@ function Tarifs() {
 
             {/* normal */}
 
-            <div className="text-center items-center justify-center mx-auto mr-80 -ml-14">
-              <h2 className="text-4xl mt-28 font-bold  text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline ">Tarifs:</h2>
+            <div className="text-center items-center justify-center mx-auto ">
+              <h2 className="items-center justify-center text-center text-4xl mt-28 mb-5 font-bold  text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline ">Tarifs:</h2>
             </div>
-            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 mr-80 text-center items-center justify-center mx-auto -ml-14  shadow-2xl p-2 animate__slideInLeft animate__slow">
-              <div className="bg-gradient-to-t from-yellow-600 via-yellow-100 to-yellow-600 h-20 w-50 shadow-2xl">
-                <p className="pt-6 text-2xl items-center justify-content-center ml-12 p-4 font-bold">Normal </p>
+
+            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 rounded-3xl text-center items-center justify-center mx-auto   shadow-2xl p-2 ">
+              <div className="bg-gradient-to-t from-yellow-600 via-yellow-100 to-yellow-600 h-20 w-50 shadow-2xl rounded-2xl">
+                <p className="pt-6 text-2xl text-center p-4 font-bold">Normal </p>
               </div>
               <div className="p-4 text-white py-12 ">
                 <div className="flex flex-col items-start space-y-5 -mt-8">
@@ -491,24 +492,24 @@ function Tarifs() {
                   </div>
                 </div>
               </div>
-              <div className="-mt-7 bg-gradient-to-t from-yellow-600 via-yellow-100 to-yellow-600 h-14 rounded-tr-3xl w-40 rounded-bl-3xl shadow-2xl ml-8 flex items-center justify-center">
+              <div className="-mt-7 bg-gradient-to-t from-yellow-600 via-yellow-100 to-yellow-600 h-14  w-40 rounded-2xl shadow-2xl flex items-center justify-center mx-auto">
                 <p className="text-4xl font-bold">11,50€</p>
               </div>
-              <h4 className=" text-lg ml-16 mb-2 mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline">Monovolume</h4>
+              <h4 className=" text-lg  mb-2 mt-2 mx-auto text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline">Monovolume</h4>
 
 
-              <div className="mt-2 bg-gradient-to-t from-yellow-600 via-yellow-100 to-yellow-600 h-14 rounded-tr-3xl w-40 rounded-bl-3xl shadow-2xl ml-8 flex items-center justify-center">
+              <div className="mt-2 bg-gradient-to-t from-yellow-600 via-yellow-100 to-yellow-600 h-14 rounded-2xl w-40  shadow-2xl mx-auto flex items-center justify-center">
                 <p className="text-4xl font-bold">12,90€</p>
               </div>
             </div>
 
 
 
-            {/* Section super polish */}
-            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 mr-80  -ml-14  shadow-2xl p-2 animate__slideInLeft animate__slow">
+            {/* super polish */}
 
-              <div className=" bg-gradient-to-t from-customRed via-red-100 to-customRed h-20  rounded-tr-3xl w-50 rounded-bl-3xl shadow-2xl ">
-                <p className="text-2xl items-center justify-content-center p-4 font-bold ml-6 pt-6 ">Super Polish<br /></p>
+            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 rounded-2xl text-center items-center justify-center mx-auto   shadow-2xl p-2 ">
+              <div className=" bg-gradient-to-t from-customRed via-red-100 to-customRed h-20  rounded-2xl w-50  shadow-2xl ">
+                <p className="text-2xl text-center p-4 font-bold ml-6 pt-6 ">Super Polish<br /></p>
               </div>
 
               <div className="p-4 text-white py-12">
@@ -570,19 +571,21 @@ function Tarifs() {
                   </div>
                 </div>
               </div>
-              <div className="-mt-7 bg-gradient-to-t from-customRed via-red-100 to-customRed h-14 rounded-tr-3xl w-40 rounded-bl-3xl shadow-2xl ml-8 flex items-center justify-center">
+              <div className="-mt-7 bg-gradient-to-t from-customRed via-red-100 to-customRed h-14 rounded-2xl w-40  shadow-2xl mx-auto flex items-center justify-center">
                 <p className="text-4xl font-bold">13,90€</p>
               </div>
-              <h4 className=" text-lg ml-16 mb-2 mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline">Monovolume</h4>
-              <div className="mt-2 mb-18 bg-gradient-to-t from-customRed via-red-100 to-customRed h-14 rounded-tr-3xl w-40 rounded-bl-3xl shadow-2xl ml-8 flex items-center justify-center">
-                <p className="text-4xl font-bold">1,30€</p>
+
+              <h4 className=" text-lg  mb-2 mt-2 mx-auto text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline">Monovolume</h4>
+              <div className="mt-2 mb-18 bg-gradient-to-t from-customRed via-red-100 to-customRed h-14 rounded-2xl w-40  shadow-2xl  flex items-center justify-center mx-auto">
+                <p className="text-4xl font-bold">15,30€</p>
               </div>
             </div>
 
             {/* Section kenolon */}
-            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 mr-80  -ml-14  shadow-2xl p-2 animate__slideInLeft animate__slow">
 
-              <div className=" bg-gradient-to-t from-blue-950 via-blue-100 to-blue-950 h-20 rounded-tr-3xl w-50 rounded-bl-3xl shadow-2xl p-2"><p className="text-2xl items-center justify-content-center ml-12 p-4 font-bold">Kenolon</p></div>
+            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 rounded-2xl text-center items-center justify-center mx-auto   shadow-2xl p-2 ">
+              <div className=" bg-gradient-to-t from-blue-950 via-blue-100 to-blue-950 h-20 rounded-2xl w-50  shadow-2xl p-2">
+                <p className="text-2xl  text-center p-4 font-bold">Kenolon</p></div>
 
               <div className="p-4 text-white py-12">
 
@@ -633,7 +636,7 @@ function Tarifs() {
 
                   </div>
                   <div className="flex justify-between items-center w-full">
-                    <p className="text-xl text-shadow-xl underline">Shampooing</p>
+                    <p className="text-xl text-shadow-xl underline ">Shampooing</p>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 text-green-500">
                       <path fillRule="evenodd" d="m6.72 5.66 11.62 11.62A8.25 8.25 0 0 0 6.72 5.66Zm10.56 12.68L5.66 6.72a8.25 8.25 0 0 0 11.62 11.62ZM5.105 5.106c3.807-3.808 9.98-3.808 13.788 0 3.808 3.807 3.808 9.98 0 13.788-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788Z" clipRule="evenodd" />
                     </svg>
@@ -642,22 +645,22 @@ function Tarifs() {
                 </div>
               </div>
 
-
-              <div className="-mt-7 bg-gradient-to-t from-blue-950 via-blue-100 to-blue-950 h-14 rounded-tr-3xl w-40 rounded-bl-3xl shadow-2xl ml-8 flex items-center justify-center">
+           
+              <div className="-mt-7 bg-gradient-to-t from-blue-950 via-blue-100 to-blue-950 h-14 rounded-2xl w-40 shadow-2xl mx-auto flex items-center justify-center">
                 <p className="text-4xl font-bold">16,30€</p>
               </div>
 
-              <h4 className=" text-lg ml-16 mb-4 mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline">Monovolume</h4>
-              <div className="bg-gradient-to-t from-blue-950 via-blue-100 to-blue-950 h-14 rounded-tr-3xl w-40 rounded-bl-3xl shadow-2xl ml-8 flex items-center justify-center">
+              <h4 className=" text-lg mb-4 mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline text-center items-center justify-center mx-auto">Monovolume</h4>
+              <div className="bg-gradient-to-t from-blue-950 via-blue-100 to-blue-950 h-14 w-40 rounded-2xl shadow-2xl mx-auto flex items-center justify-center">
                 <p className="text-4xl font-bold">17,70€</p>
               </div>
             </div>
 
 
             {/* VIP */}
-            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 mr-80  -ml-14  shadow-2xl p-2 animate__slideInLeft animate__slow">
-              <div className="bg-gradient-to-t from-gray-800 via-gray-100 to-gray-800 h-20  w-50  shadow-2xl p-2">
-                <p className="text-2xl items-center justify-content-center ml-16 p-4 font-bold">V.I.P</p>
+            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950 mb-5 w-80 rounded-2xl text-center items-center justify-center mx-auto   shadow-2xl p-2">
+              <div className="bg-gradient-to-t from-gray-800 via-gray-300 to-gray-800 h-20  w-50 rounded-2xl shadow-2xl p-2">
+                <p className="text-2xl items-center justify-center text-center  p-4 font-bold">V.I.P</p>
               </div>
               <div className="p-4 text-white py-12">
                 <div className="flex flex-col items-start space-y-5 -mt-8">
@@ -669,19 +672,19 @@ function Tarifs() {
                   ))}
                 </div>
               </div>
-              <div className="-mt-7 bg-gradient-to-t from-gray-800 via-gray-100 to-gray-800 h-14  w-40  shadow-2xl ml-8 flex items-center justify-center">
+              <div className="-mt-7 bg-gradient-to-t from-gray-800 via-gray-100 to-gray-800 h-14  w-40 rounded-2xl shadow-2xl mx-auto flex items-center justify-center">
                 <p className="text-4xl font-bold">37,90€</p>
               </div>
-              <h4 className="text-lg ml-16 mb-4 mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline">Monovolume</h4>
-              <div className="bg-gradient-to-t from-gray-800 via-gray-100 to-gray-800 h-14  w-40  shadow-2xl ml-8 flex items-center justify-center">
+              <h4 className="text-lg  mb-4 mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-50 to-yellow-500 custom-font custom-underline mx-auto">Monovolume</h4>
+              <div className="bg-gradient-to-t from-gray-800 via-gray-100 to-gray-800 h-14 w-40 shadow-2xl mx-auto rounded-2xl flex items-center justify-center">
                 <p className="text-4xl font-bold">42,90€</p>
               </div>
             </div>
 
             {/* Shampooing */}
-            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950  w-80 mr-80  -ml-14  shadow-2xl p-2 animate__slideInLeft animate__slow">
-              <div className="bg-gradient-to-t from-green-800 via-green-100 to-green-800 h-20  w-50  shadow-2xl p-2">
-                <p className="text-2xl items-center justify-content-center ml-4 p-4 font-bold">Shampooing</p>
+            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950  w-80 shadow-2xl p-2 rounded-2xl text-center items-center justify-center mx-auto ">
+              <div className="bg-gradient-to-t from-green-800 via-green-100 to-green-800 h-20 rounded-2xl w-50  shadow-2xl p-2">
+                <p className="text-2xl text-center ml-4 p-4 font-bold">Shampooing</p>
               </div>
               <div className="p-4 text-white py-12">
                 <div className="flex flex-col items-start space-y-5 -mt-8">
@@ -693,15 +696,15 @@ function Tarifs() {
                   ))}
                 </div>
               </div>
-              <div className="bg-gradient-to-t from-green-800 via-green-100 to-green-800 h-14  w-40  shadow-2xl ml-8 flex items-center justify-center">
+              <div className="bg-gradient-to-t from-green-800 via-green-100 to-green-800 h-14  w-40 rounded-2xl shadow-2xl flex items-center justify-center mx-auto">
                 <p className="text-4xl font-bold">Devis</p>
               </div>
             </div>
 
             {/* abonnements */}
-            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950  w-80 mr-80  -ml-14  shadow-2xl p-2 animate__slideInLeft animate__slow">
-              <div className="bg-gradient-to-b from-gray-500 via-gray-100 to-gray-400 h-20  w-50  shadow-2xl ">
-                <p className=" text-2xl items-center justify-content-center ml-4 p-4 font-bold ">Abonnements</p>
+            <div className="bg-gradient-to-r from-gray-950 via-blue-400 to-gray-950  w-80 rounded-2xl mt-10 shadow-2xl p-2 animate__slideInLeft animate__slow">
+              <div className="bg-gradient-to-b from-gray-500 via-gray-100 to-gray-400 h-20  w-50 shadow-2xl rounded-2xl ">
+                <p className=" text-2xl text-center p-4 font-bold ">Abonnements</p>
               </div>
               <div className="p-4 text-white py-12">
                 <div className="flex flex-col items-start space-y-5 -mt-8">

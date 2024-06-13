@@ -41,7 +41,7 @@ function Accueil() {
                 NOUS SOMMES FIERS DE VOUS OFFRIR UNE GAMME COMPLÈTE DE SERVICES DE LAVAGE DE VOITURE, CONÇUS POUR RÉPONDRE À TOUS VOS BESOINS ET SURPASSER VOS ATTENTES.
                 QUE VOUS SOUHAITIEZ UN NETTOYAGE RAPIDE OU UNE RÉNOVATION COMPLÈTE DE VOTRE VÉHICULE, NOUS AVONS LA FORMULE PARFAITE POUR VOUS.
               </p>
-              <div className="flex space-x-4 w-3/4 ">
+              <div className="flex space-x-4 w-3/4 mt-20">
                 <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-blue-800 bg-opacity-40 shadow-2xl flex-1">
                   DÉCOUVREZ NOS SERVICES DE CAR WASH DE QUALITÉ SUPÉRIEURE
                 </p>
@@ -59,24 +59,7 @@ function Accueil() {
         {/* Section pour petits écrans */}
         <div className="block lg:hidden">
           <div className="flex flex-col items-center p-1">
-            {/* <div className="text-center mb-8">
-              <p className="text-4xl mt-8 pt-20 pb-20 px-10 text-shadow-xl shadow-black text-white rounded-xl bg-gray-900 bg-opacity-90 custom-font shadow-2xl">
-                BIENVENUE CHEZ URBAN WASH, VOTRE DESTINATION ULTIME POUR UN ENTRETIEN DE VÉHICULE IMPECCABLE. <br /><br />
-                NOUS SOMMES FIERS DE VOUS OFFRIR UNE GAMME COMPLÈTE DE SERVICES DE LAVAGE DE VOITURE, CONÇUS POUR RÉPONDRE À TOUS VOS BESOINS ET SURPASSER VOS ATTENTES. <br /><br />
-                QUE VOUS SOUHAITIEZ UN NETTOYAGE RAPIDE OU UNE RÉNOVATION COMPLÈTE DE VOTRE VÉHICULE, NOUS AVONS LA FORMULE PARFAITE POUR VOUS.
-              </p>
-              <div className="flex flex-col space-y-4 mt-10">
-                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-blue-800 bg-opacity-60 shadow-2xl">
-                  DÉCOUVREZ NOS SERVICES DE CAR WASH DE QUALITÉ SUPÉRIEURE
-                </p>
-                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-yellow-600 bg-opacity-60 shadow-2xl">
-                  UN SERVICE PERSONNALISÉ POUR CHAQUE CLIENT
-                </p>
-                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-red-800 bg-opacity-60 shadow-2xl">
-                  UNE EXPÉRIENCE INOUBLIABLE POUR VOTRE VÉHICULE
-                </p>
-              </div>
-            </div> */}
+           
             <Carousel
               autoPlay
               showThumbs={false}
@@ -105,7 +88,7 @@ function Accueil() {
               </div>
             </Carousel>
             <div className="text-center ">
-              <p className="  pt-14 pb-20 mt-1 text-shadow-xl shadow-black text-white bg-gray-900 bg-opacity-90 custom-font ">
+              <p className=" pl-2 pr-2 pt-14 pb-20 mt-1 text-shadow-xl shadow-black text-white bg-gray-900 bg-opacity-90 custom-font ">
                 BIENVENUE CHEZ URBAN WASH, VOTRE DESTINATION ULTIME POUR UN ENTRETIEN DE VÉHICULE IMPECCABLE. <br /><br />
                 NOUS SOMMES FIERS DE VOUS OFFRIR UNE GAMME COMPLÈTE DE SERVICES DE LAVAGE DE VOITURE, CONÇUS POUR RÉPONDRE À TOUS VOS BESOINS ET SURPASSER VOS ATTENTES. <br /><br />
                 QUE VOUS SOUHAITIEZ UN NETTOYAGE RAPIDE OU UNE RÉNOVATION COMPLÈTE DE VOTRE VÉHICULE, NOUS AVONS LA FORMULE PARFAITE POUR VOUS.<br /><br /> DÉCOUVREZ NOS SERVICES DE CAR WASH DE QUALITÉ SUPÉRIEURE
