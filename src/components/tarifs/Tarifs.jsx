@@ -402,7 +402,7 @@ function Tarifs() {
                     <img src={MyIcon} alt="My Icon" style={{ width: '20px', height: '20px' }} />
                   </div>
                   <div className="flex justify-between items-center w-full">
-                    <p className="text-xl text-shadow-xl underline">Shampooing interieur</p>
+                    <p className="text-xl text-shadow-xl underline">Désodorisation du vehicule</p>
                     <img src={MyIcon} alt="My Icon" style={{ width: '20px', height: '20px' }} />
                   </div>
                 </div>
@@ -688,7 +688,7 @@ function Tarifs() {
               </div>
               <div className="p-4 text-white py-12">
                 <div className="flex flex-col items-start space-y-5 -mt-8">
-                  {['Prélavage', 'Haute pression', 'Mousse active', 'Jantes', 'Lavage brosse', 'Wax', '2 X Séchage', 'Super Polish', 'Kenolon', 'Lavage interieur', 'Shampooing', 'Shampooing interieur'].map(service => (
+                  {['Prélavage', 'Haute pression', 'Mousse active', 'Jantes', 'Lavage brosse', 'Wax', '2 X Séchage', 'Super Polish', 'Kenolon', 'Lavage interieur', 'Shampooing'].map(service => (
                     <div className="flex justify-between items-center w-full" key={service}>
                       <p className="text-xl text-shadow-xl underline">{service}</p>
                       <img src={MyIcon} alt="My Icon" style={{ width: '20px', height: '20px' }} />

@@ -9,14 +9,18 @@ import myImage3 from '../../images/myImage3.jpg';
 import myImage4 from '../../images/myImage4.jpg';
 import myImage5 from '../../images/myImage5.jpg';
 import myImage6 from '../../images/myImage6.jpg';
+import Footer from '../footer/Footer';
 
 function Accueil() {
   return (
     <div>
-     <Navbar />
+      <Navbar />
       <div className="relative w-full ">
-        {/* Section pour grands écrans */}
+
+        
+        {/* grands ecrans */}
         <div className="hidden lg:flex absolute inset-0 w-full items-center justify-center bg-black">
+          
           <Carousel autoPlay showThumbs={false} infiniteLoop={true} interval={4000} transitionTime={2000} className="w-full h-full">
             <div className="w-full h-full">
               <img src={myImage2} alt="My Image 2" className="w-full h-full object-cover" />
@@ -33,33 +37,39 @@ function Accueil() {
             <div className="w-full h-full">
               <img src={myImage1} alt="My Image 1" className="w-full h-full object-cover" />
             </div>
+            
           </Carousel>
-          <div className="absolute inset-0 mt-40">
+          <div className="absolute inset-0 mt-64">
             <div className="flex flex-col items-center justify-center h-full mt-80 ">
-              <p className="text-center text-4xl pt-10 pb-10 text-shadow-xl shadow-black text-white rounded-xl custom-font text-shadow-xl bg-black bg-opacity-60 shadow-2xl w-3/4">
+              <p className="text-center text-4xl pt-10 pb-10 text-shadow-xl shadow-black text-white rounded-xl custom-font text-shadow-xl bg-black bg-opacity-60 shadow-2xl w-3/4 animate__animated animate__fadeIn animate__slower">
                 BIENVENUE CHEZ URBAN WASH, VOTRE DESTINATION ULTIME POUR UN ENTRETIEN DE VÉHICULE IMPECCABLE.
                 NOUS SOMMES FIERS DE VOUS OFFRIR UNE GAMME COMPLÈTE DE SERVICES DE LAVAGE DE VOITURE, CONÇUS POUR RÉPONDRE À TOUS VOS BESOINS ET SURPASSER VOS ATTENTES.
                 QUE VOUS SOUHAITIEZ UN NETTOYAGE RAPIDE OU UNE RÉNOVATION COMPLÈTE DE VOTRE VÉHICULE, NOUS AVONS LA FORMULE PARFAITE POUR VOUS.
               </p>
               <div className="flex space-x-4 w-3/4 mt-20">
-                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-blue-800 bg-opacity-40 shadow-2xl flex-1">
+                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-blue-800 bg-opacity-40 shadow-2xl flex-1 animate__animated animate__fadeIn animate__slower">
                   DÉCOUVREZ NOS SERVICES DE CAR WASH DE QUALITÉ SUPÉRIEURE
                 </p>
-                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-yellow-600 bg-opacity-40 shadow-2xl flex-1">
+                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-yellow-600 bg-opacity-40 shadow-2xl flex-1 animate__animated animate__fadeIn animate__slower">
                   UN SERVICE PERSONNALISÉ POUR CHAQUE CLIENT
                 </p>
-                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-red-800 bg-opacity-40 shadow-2xl flex-1">
+                <p className="text-center text-2xl p-10 text-shadow-xl text-white rounded-xl bg-red-800 bg-opacity-40 shadow-2xl flex-1 animate__animated animate__fadeIn animate__slower">
                   UNE EXPÉRIENCE INOUBLIABLE POUR VOTRE VÉHICULE
                 </p>
+                
               </div>
             </div>
           </div>
+         
         </div>
+        
 
-        {/* Section pour petits écrans */}
+
+        {/*petits écrans */}
+
         <div className="block lg:hidden">
-          <div className="flex flex-col items-center p-1">
-           
+          <div className="flex flex-col items-center ">
+
             <Carousel
               autoPlay
               showThumbs={false}
@@ -88,16 +98,17 @@ function Accueil() {
               </div>
             </Carousel>
             <div className="text-center ">
-              <p className=" pl-2 pr-2 pt-14 pb-20 mt-1 text-shadow-xl shadow-black text-white bg-gray-900 bg-opacity-90 custom-font ">
+              <p className=" pl-2 pr-2 pt-14 pb-20  text-shadow-xl shadow-black text-white bg-gray-900 bg-opacity-90 custom-font ">
                 BIENVENUE CHEZ URBAN WASH, VOTRE DESTINATION ULTIME POUR UN ENTRETIEN DE VÉHICULE IMPECCABLE. <br /><br />
                 NOUS SOMMES FIERS DE VOUS OFFRIR UNE GAMME COMPLÈTE DE SERVICES DE LAVAGE DE VOITURE, CONÇUS POUR RÉPONDRE À TOUS VOS BESOINS ET SURPASSER VOS ATTENTES. <br /><br />
                 QUE VOUS SOUHAITIEZ UN NETTOYAGE RAPIDE OU UNE RÉNOVATION COMPLÈTE DE VOTRE VÉHICULE, NOUS AVONS LA FORMULE PARFAITE POUR VOUS.<br /><br /> DÉCOUVREZ NOS SERVICES DE CAR WASH DE QUALITÉ SUPÉRIEURE
                 UN SERVICE PERSONNALISÉ POUR CHAQUE CLIENT  UNE EXPÉRIENCE INOUBLIABLE POUR VOTRE VÉHICULE.</p>
-             
+
             </div>
           </div>
         </div>
       </div>
+      
     </div>
   );
 }

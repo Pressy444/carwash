@@ -43,10 +43,15 @@ function Services() {
                                 <p className="shadow-3xl mt-2 mb-4 font-semibold text-shadow-md bg-blue-300 p-1 w-72 sm:w-80 rounded-lg pl-2 sm:pl-4 text-appear animate__animated animate__slideInRight animate__slow">Formule Numéro 3 : Formule Kenolon</p>
                                 <p className="sm:mb-20 mb-10 text-base sm:text-xl text-shadow-xl text-appear animate__animated animate__slideInRight animate__slow">La Formule Kenolon est notre service de lavage premium. Utilisant des produits de pointe, cette formule offre une protection durable et une brillance éclatante. Parfaite pour les amateurs de voitures qui veulent le meilleur pour leur véhicule.</p>
                             </div>
+                            
                         </div>
+                        
                     </div>
+                    
                 </div>
+                
             </section>
+            
         </div>
     )
 }

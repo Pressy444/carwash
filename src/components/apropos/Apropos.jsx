@@ -10,16 +10,17 @@ function Apropos() {
         {/* <div className="hidden lg:flex  items-center"> */}
         <div class="hidden lg:flex lg:flex-col md:flex-col md:flex  items-center justify-center h-screen">
         <div className="bg-blue- bg-opacity-20 rounded-lg p-20 w-full md:w-auto">
-          <h2 className="text-3xl font-bold text-white text-shadow-xl text-center ">À PROPOS DE NOUS</h2>
-          <p className="text-white text-shadow-xl text-lg text-center font-bold ">
+          <h2 className="text-3xl font-bold text-white text-shadow-xl mb-10 text-center animate__animated animate__fadeIn animate__slower ">À PROPOS DE NOUS</h2>
+          <p className="text-white text-shadow-xl text-lg text-center font-bold animate__animated animate__fadeIn animate__slower">
             Depuis plus de 20 ans, Urban Wash est votre destination de confiance pour le nettoyage automobile. Situé entre la Place des Mayeurs et la Maison Communale de Woluwe-Saint-Pierre,<br />
-            notre centre de lavage se distingue par un service exceptionnel et une attention méticuleuse aux détails.
-            <br />Chez Urban Wash, nous nous engageons à offrir à nos clients le meilleur pour leurs véhicules.<br />
+            notre centre de lavage se distingue par un service exceptionnel et une attention méticuleuse aux détails.</p>
+
+            <p className="text-white text-shadow-xl text-lg text-center font-bold animate__animated animate__fadeIn animate__slower"> <br />Chez Urban Wash, nous nous engageons à offrir à nos clients le meilleur pour leurs véhicules.<br />
             Nous utilisons des produits de haute qualité qui assurent un lavage en profondeur tout en respectant l'environnement. <br />
-            <br />En plus de nos services de lavage complet, nous mettons à votre disposition des machines performantes pour passer l'aspirateur vous-même, afin que chaque recoin de votre véhicule soit impeccable. <br />
-            Que vous ayez besoin d'un nettoyage rapide ou d'un soin approfondi, nous sommes là pour répondre à vos besoins avec le sourire.
-            <br />Venez découvrir pourquoi nos clients nous font confiance depuis deux décennies. Nous avons hâte de prendre soin de votre véhicule et de vous offrir une expérience de lavage incomparable.
-          </p>
+            <br />En plus de nos services de lavage complet, nous mettons à votre disposition des machines performantes pour passer l'aspirateur vous-même, afin que chaque recoin de votre véhicule soit impeccable. <br /></p>
+            <p className="text-white text-shadow-xl text-lg text-center font-bold animate__animated animate__fadeIn animate__slower"> Que vous ayez besoin d'un nettoyage rapide ou d'un soin approfondi, nous sommes là pour répondre à vos besoins avec le sourire.
+            <br />Venez découvrir pourquoi nos clients nous font confiance depuis deux décennies. Nous avons hâte de prendre soin de votre véhicule et de vous offrir une expérience de lavage incomparable.</p>
+          
         </div>
 
         <div className="flex w-full flex-grow">
